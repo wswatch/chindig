@@ -20,12 +20,13 @@ npm install
 Serve (localhost:3000) and listen for changes with
 
 ```
+cd app
 npm start
 ```
 
 ## Build
 
-Serve repo and listen for changes with
+Creates optimized production build in `app/build/`
 
 ```
 npm run build
