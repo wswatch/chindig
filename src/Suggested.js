@@ -31,7 +31,7 @@ class Suggested extends Component {
   }
 
   getDate(datetime) {
-    return moment(datetime).format('dddd, MMMM Do');
+    return moment(datetime).format('dddd, MMM Do');
   }
 
   getTime(datetime) {

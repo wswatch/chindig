@@ -41,11 +41,11 @@ button {
  **/
 .event {
   position: relative;
-  width: 375px;
+  width: 100%;
 }
 
 .event img {
-  width: 375px;
+  width: 100%;
   height: 300px;
 
 }
