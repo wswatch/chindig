@@ -17,16 +17,15 @@ npm install
 
 ## Development
 
-Serve (localhost:3000) and listen for changes with
+Serve and listen for changes with
 
 ```
-cd app
 npm start
 ```
 
 ## Build
 
-Creates optimized production build in `app/build/`
+Creates optimized production build in `build/`
 
 ```
 npm run build
