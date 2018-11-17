@@ -1,7 +1,7 @@
 
 ## Chindig
 
-Discover the Indie Chicago Community.
+Discover the Chicago Indie Community.
 
 ## Requirements
 
