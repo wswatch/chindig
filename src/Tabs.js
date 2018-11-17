@@ -45,8 +45,8 @@ class SimpleTabs extends React.Component {
         <AppBar position="static" className={classes.grow}>
           <Tabs value={value} onChange={this.handleChange} centered fullWidth>
             <Tab label="Suggested" />
-            <Tab label="Saved" />
             <Tab label="Past" />
+            <Tab label="Upcoming (0)" />
           </Tabs>
         </AppBar>
         {value === 0 &&
@@ -54,9 +54,9 @@ class SimpleTabs extends React.Component {
             <Suggested />
           </TabContainer>}
         {value === 1 &&
-          <TabContainer>Saved</TabContainer>}
+          <TabContainer>Past</TabContainer>}
         {value === 2 &&
-          <TabContainer>Past</TabContainer>
+          <TabContainer>Saved</TabContainer>
         }
       </div>
     );
