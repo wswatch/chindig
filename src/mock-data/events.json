@@ -8,5 +8,105 @@
 		"location": "Volumes Bookcafe",
 		"tag": "Trivia",
 		"image": "images/events-1/volumes.jpg"
+	},
+	{
+		"name": "Underground Art Market 2018",
+		"description": "Please join us for our 8th year, 10th edition of The Underground Art Market. This year we are creating this event at Salvage One. Salvage One is an incredible art, antique & artifact store and stunning event space. We couldn't be more thrilled to announce the all the incredible artists, artisans and culinary artists that are coming together on the themes of wellness & recycled arts & eco-consciousness to create this event.",
+		"url": "https://www.facebook.com/events/1672738502838298/",
+		"start": "2018-12-09T12:00:00",
+		"cost": "free",
+		"location": "Salvage One",
+		"tag": "Art",
+		"image": "images/events-2/underground_market_2018.jpg"
+	},
+	{
+		"name": "Thanksgiving: Listen to Them Grow",
+		"description": "In its 90th year at Rockefeller Chapel, the South Side’s beloved interfaith Thanksgiving community celebration features the Hyde Park Neighborhood Choir of the Chicago’s Children’s Choir singing world music, with prayers and readings by local leaders of diverse spiritual traditions. Elizabeth Davenport, Dean of Rockefeller Chapel, offers the address. Free. Presented by the Hyde Park & Kenwood Interfaith Council with Rockefeller Chapel",
+		"url": "https://www.facebook.com/events/2148766835443615/",
+		"start": "2018-11-28T11:00:00",
+		"cost": "free",
+		"location": "Rockefeller Memorial Chapel",
+		"tag": "Music",
+		"image": "images/events-3/thanksgiving.jpg"
+	},
+	{
+		"name": "Chicago Open Stratego Tournament @ CHITAG",
+		"description": "Chicago CHITAG Open Stratego Tournament is open for all participants. Young and old, starters and experienced players, everyone will meet opponents of a sort of similar level. There will be fun, exciting games, and the chance to reach eternal fame. The Chicago Open is the ideal event to meet STRATEGO friends from all over the USA to enjoy the game.",
+		"url": "https://www.eventbrite.com/e/chicago-chitag-open-stratego-tournament-hosted-by-playmonster-nasf-tickets-50043304872",
+		"start": "2018-11-18T09:00:00",
+		"cost": "free",
+		"location": "Navy Pier",
+		"tag": "Game",
+		"image": "images/events-4/highres_475695184.jpg"
+	},
+	{
+		"name": "Green Gratitude 2018 Raw Vegan Dinner - ALL WELCOME!!",
+		"description": "This will be a fancy raw vegan potluck. We ask you to bring a dish using our recipes.… the Green Gratitude Chef Team will be plating this special meal for us. We will also need a few people to make a cash donation to help cover costs of some of the dishes the chefs will make.  Everyone Welcome!",
+		"url": "https://www.meetup.com/taste-of-vegan-chicagoland/events/255989196/",
+		"start": "2018-12-09T12:00:00",
+		"cost": "$5.00",
+		"location": "Immanuel Lutheran Church",
+		"tag": "Food",
+		"image": "images/events-5/.600_476132574.jpeg"
+	},
+	{
+		"name": "Help sort donated food for Coppin Food Pantry, Southside, afternoon",
+		"description": "We will be sorting donated produce from local grocery stores to prepare for the distribution in the late afternoon at the Coppin Community Center's Food Pantry. Come help feed low income families in need of food in the Washington Park Neighborhood. The pantry is operated by the Coppin Memorial A.M.E. Church and Coppin Community Center. They have been serving the south side of Chicago for the last 95 years. The pantry has been operation since October 2011. Refreshments will be served to volunteers. We need help the most from 8:30 am to 1:30 pm on truck delivery. 1st truck arrives between 8:30-9:00. 2nd truck arrives between 12:00noon and 12:30. These are not hard and fast time slots. If you cannot stay for the full duration, you can still be very helpful for 1 or 2 hours. Average weight for the bags and boxes are around 20 to 40 pounds. We work in teams so you do not need to lift anything heavier than you feel comfortable doing. You can take breaks whenever you need one.",
+		"url": "https://www.meetup.com/Chicago-Fun-Volunteers/events/lbszclyxpbzb/",
+		"start": "2018-11-19T08:30:00",
+		"cost": "free",
+		"location": "Coppin Community Center",
+		"tag": "Volunteer",
+		"image": "images/events-6/strong-black-beautiful-woman-378x300.jpg"
+	},
+	{
+		"name": "Delicious Authentic Homecooked Venezuelan at SWEET PEPPER! 2nd seating!",
+		"description": "Sweet Pepper restaurant is a family-owned restaurant that has recently opened. They are located in the Northwest side of Chicago on Lawrence Ave in the Lincoln Square neighborhood. We will be having a delicious dinner at this restaurant and will be all vegan! They will be having a special appetizer for us, the rest is on their menu.",
+		"url": "https://www.meetup.com/taste-of-vegan-chicagoland/events/255971339/",
+		"start": "2018-11-12T19:00:00",
+		"cost": "$12.00",
+		"location": "Sweet Pepper",
+		"tag": "Food, Vegan",
+		"image": "images/events-7/highres_475921864.jpeg"
+	},
+	{
+		"name": "Sunday Night Sitting Meditation w/ North Suburban Meditation Community",
+		"description": "Join Mark Z and his Sangha -- almost every Sunday evening in this kind-hearted, committed fellowship, as we come together to support one another in practicing mindfulness meditation.  Some guidance is offered by the facilitator, followed by a period of sitting, breath awareness, thought witnessing and other meditation techniques.  Meditation is widely known to be supportive for mental clarity, emotional regulation and physical well-being. We support one another on this simple but profound path.  Modest donations are accepted at the discretion of the participants, to help support our host location, Inner Balance.",
+		"url": "https://www.meetup.com/Inner-Balance-Meditation/events/255870386/",
+		"start": "2018-11-18T18:30:00",
+		"cost": "free",
+		"location": "Inner Balance",
+		"tag": "Mind Grouth",
+		"image": "images/events-8/highres_472139772.jpeg"
+	},
+	{
+		"name": "Exploring Your Life Mission",
+		"description": "Why am I here?  What am I here to do?  Who am I here to become?  If these questions are relevant for you, Join us for the continuing series of Life Mission Sessions. Each Session is custom created for, and with, those in attendance. Join us for one to gain a morsel of insight. Join us monthly to continue to deepen inspiration, grow your voice, increase your confidence, courage and impact in the world.",
+		"url": "https://www.meetup.com/Inner-Balance-Meditation/events/255196824/",
+		"start": "2018-12-25T14:00:00",
+		"cost": "free",
+		"location": "Inner Balance",
+		"tag": "Mind Groth",
+		"image": "images/events-9/underground_market_2018.jpg"
+	},
+	{
+		"name": "Cook a meal for the homeless, Streeterville/Gold Coast, flexible shift times.",
+		"description": "Join Fight2Feed as we help cook and feed 150+ meals for our neighbors that are homeless and families in need. This is a special Monday day time project with the Fourth Presbyterian Church and Catholic Charities. Volunteers will meet at the Fourth Presbyterian Church in the morning, located near Streeterville, 126 E Chestnut Street Chicago IL 60611. (across from John Hancock building). Volunteer shifts are from 10 AM to 4 PM in 3 hour blocks. If you have to leave early or come later than the listed shift time, that is OK too.",
+		"url": "https://www.meetup.com/Chicago-Fun-Volunteers/events/255049098/",
+		"start": "2018-11-19T10:00:00",
+		"cost": "free",
+		"location": "Fourth Presbyterian Church",
+		"tag": "Volunteer",
+		"image": "images/events-10/600_468470210.jpeg"
+	},
+	{
+		"name": "110 IN THE SHADE at BoHo Theatre",
+		"description": "Saddled to a failing cattle ranch, the only woman in a family of menfolk, Lizzie Curry has just about given up hope of finding love and escape. But when a charming trickster named Starbuck breezes into town promising to bring rain for $100.00, Lizzie’s father gives the man the last of the family’s savings, knowing that what he has to offer them, and Lizzie, is more than just rain. Taking our cue from the 2007 Broadway revival, BoHo looks to bring its customary small-scale intimacy to this underrated Depression-era tale. Adapted from Nash’s hit play THE RAINMAKER by the composing team behind THE FANTASTICKS and I DO! I DO!, 110 IN THE SHADE is a story of recognizing the beauty and potential locked away inside all of us.  Running Time: 2 hours with intermission",
+		"url": "http://bohotheatre.com/shows/110-in-the-shade/",
+		"start": "2018-11-23T20:00:00",
+		"cost": "$35.00",
+		"location": "Theater Wit",
+		"tag": "Art",
+		"image": "images/events-11/110_in_the_shade-6.jpg"
 	}
 ]
