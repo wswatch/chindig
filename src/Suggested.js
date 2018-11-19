@@ -38,11 +38,10 @@ class Suggested extends Component {
   }
 
   render() {
-
-    let events = this.state.events.map(event =>
-      <Grid item xs={24} sm={6} md={4} lg={3} xl={2}>
-        <div key={ event.url } className="event">
-          <img src={process.env.PUBLIC_URL + event.image} alt="test" />
+    let events = this.state.events.map((event, i) =>
+      <Grid item xs={12} sm={6} md={4} lg={3} xl={2} key={i} >
+        <div className="event">
+          <img src={`./${event.image}`} alt="test" />
 
           <div className="event-tag">
             <Chip label={event.tag} color="secondary" />

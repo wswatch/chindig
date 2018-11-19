@@ -1,10 +1,7 @@
+
 /**
  * App common
  **/
-
-header.MuiAppBar-colorPrimary-11 {
-  background-color: #009bd1;
-}
 
 .logo {
   text-align: center;
@@ -70,7 +67,7 @@ button {
 .event .event-tag > div {
   background-color: #000;
   opacity: 0.75;
-
+  color: #fff;
 }
 
 .event .event-text {
@@ -98,6 +95,5 @@ button {
 }
 
 .event-save button {
-  background-color: #009bd1;
   z-index: 1;
 }
