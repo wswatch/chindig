@@ -7,13 +7,13 @@ import SimpleTabs from './Tabs';
 import { HashRouter as Router, Route} from 'react-router-dom';
 
 
+
 const RouteWithProps = ({ component: Component, props, ...extraProps }) => (
   <Route
     {...extraProps}
     render={routeProps => <Component {...props} {...routeProps} />}
   />
 );
-
 
 
 class App extends Component {

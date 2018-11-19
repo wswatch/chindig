@@ -3,6 +3,7 @@ import moment from '../node_modules/moment';
 import { withStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
 import Chip from '@material-ui/core/Chip';
+import Grid from '@material-ui/core/Grid'
 
 // include mock data as part of js bundle for now.
 const events = require('./mock-data/events.json');
@@ -39,32 +40,37 @@ class Suggested extends Component {
   render() {
 
     let events = this.state.events.map(event =>
-      <div key={ event.url } className="event">
-        <img src={process.env.PUBLIC_URL + event.image} alt="test" />
+      <Grid item xs={24} sm={6} md={4} lg={3} xl={2}>
+        <div key={ event.url } className="event">
+          <img src={process.env.PUBLIC_URL + event.image} alt="test" />
 
-        <div className="event-tag">
-          <Chip label={event.tag} color="secondary" />
+          <div className="event-tag">
+            <Chip label={event.tag} color="secondary" />
+          </div>
+
+          <div className="event-text">
+            <div className="name">{event.name}</div>
+            <div className="location">@ {event.location}</div>
+
+            <div className="day">{this.getDate(event.start)}</div>
+            <div className="time">{this.getTime(event.start)}</div>
+          </div>
+
+          <div className="event-save">
+            <Button variant="contained" color="primary" className={styles.button}>
+              Save
+            </Button>
+          </div>
         </div>
-
-        <div className="event-text">
-          <div className="name">{event.name}</div>
-          <div className="location">@ {event.location}</div>
-
-          <div className="day">{this.getDate(event.start)}</div>
-          <div className="time">{this.getTime(event.start)}</div>
-        </div>
-
-        <div className="event-save">
-          <Button variant="contained" color="primary" className={styles.button}>
-            Save
-          </Button>
-        </div>
-      </div>
+      </Grid>
     )
 
     return (
       <div>
-        { events }
+        <Grid container spacing={24}>
+          { events }
+        </Grid>
+
       </div>
     );
   }
