@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/chindig/static/css/main.25693349.chunk.css"
   },
   {
-    "revision": "507427afb69eb1785e56ce0b804444e5",
+    "revision": "f521d34d6303dcb51f458d458afbd569",
     "url": "/chindig/index.html"
   }
 ];
