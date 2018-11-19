@@ -24,8 +24,8 @@ class App extends Component {
           <Navbar />
 
           <RouteWithProps exact path='/' component={SimpleTabs}/>
-          <RouteWithProps path='/upload' component={SimpleTabs}/>
-          <RouteWithProps path='/view/:id' component={SimpleTabs}/>
+          <RouteWithProps path='/profile' component={SimpleTabs}/>
+          <RouteWithProps path='/event/:id' component={SimpleTabs}/>
           {/*<RouteWithProps exact path='/about' component={About}/>*/}
         </div>
       </Router>

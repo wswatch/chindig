@@ -2,15 +2,13 @@ import React, { Component } from 'react';
 import moment from '../node_modules/moment';
 import { withStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
+import Chip from '@material-ui/core/Chip';
 
 // include mock data as part of js bundle for now.
 const events = require('./mock-data/events.json');
 
 
 const styles = theme => ({
-  button: {
-    margin: theme.spacing.unit,
-  },
   input: {
     display: 'none',
   },
@@ -40,10 +38,14 @@ class Suggested extends Component {
 
   render() {
 
-
     let events = this.state.events.map(event =>
       <div key={ event.url } className="event">
         <img src={process.env.PUBLIC_URL + event.image} alt="test" />
+
+        <div className="event-tag">
+          <Chip label={event.tag} color="secondary" />
+        </div>
+
         <div className="event-text">
           <div className="name">{event.name}</div>
           <div className="location">@ {event.location}</div>

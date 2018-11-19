@@ -51,7 +51,7 @@ class SimpleTabs extends React.Component {
         </AppBar>
         {value === 0 &&
           <TabContainer>
-            <Suggested />
+          <Suggested />
           </TabContainer>}
         {value === 1 &&
           <TabContainer>Past</TabContainer>}
