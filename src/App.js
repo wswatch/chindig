@@ -21,7 +21,7 @@ const theme = createMuiTheme({
     },
   },
   typography: {
-    useNextVariants: false,
+    useNextVariants: true,
   }
 });
 
