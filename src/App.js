@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import './App.css';
+import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
+import { HashRouter as Router, Route} from 'react-router-dom';
 
+import './App.css';
 
 import Navbar from './Navbar'
 import SimpleTabs from './Tabs';
 
-import { HashRouter as Router, Route} from 'react-router-dom';
 
-import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 
 const theme = createMuiTheme({
   palette: {
