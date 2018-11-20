@@ -11,7 +11,7 @@
 	},
 	{
 		"name": "Underground Art Market 2018",
-		"description": "Please join us for our 8th year, 10th edition of The Underground Art Market. This year we are creating this event at Salvage One. Salvage One is an incredible art, antique & artifact store and stunning event space. We couldn't be more thrilled to announce the all the incredible artists, artisans and culinary artists that are coming together on the themes of wellness & recycled arts & eco-consciousness to create this event.",
+		"description": "Please join us for our 8th year, 10th edition of The Underground Art Market. This year we are creating this event at Salvage One. Salvage One is an incredible art, antique & artifact store and stunning event space. We couldn/'t be more thrilled to announce the all the incredible artists, artisans and culinary artists that are coming together on the themes of wellness & recycled arts & eco-consciousness to create this event.",
 		"url": "https://www.facebook.com/events/1672738502838298/",
 		"start": "2018-12-09T12:00:00",
 		"cost": "free",
@@ -51,7 +51,7 @@
 	},
 	{
 		"name": "Help sort donated food for Coppin Food Pantry, Southside, afternoon",
-		"description": "We will be sorting donated produce from local grocery stores to prepare for the distribution in the late afternoon at the Coppin Community Center's Food Pantry. Come help feed low income families in need of food in the Washington Park Neighborhood. The pantry is operated by the Coppin Memorial A.M.E. Church and Coppin Community Center. They have been serving the south side of Chicago for the last 95 years. The pantry has been operation since October 2011. Refreshments will be served to volunteers. We need help the most from 8:30 am to 1:30 pm on truck delivery. 1st truck arrives between 8:30-9:00. 2nd truck arrives between 12:00noon and 12:30. These are not hard and fast time slots. If you cannot stay for the full duration, you can still be very helpful for 1 or 2 hours. Average weight for the bags and boxes are around 20 to 40 pounds. We work in teams so you do not need to lift anything heavier than you feel comfortable doing. You can take breaks whenever you need one.",
+		"description": "We will be sorting donated produce from local grocery stores to prepare for the distribution in the late afternoon at the Coppin Community Center/'s Food Pantry. Come help feed low income families in need of food in the Washington Park Neighborhood. The pantry is operated by the Coppin Memorial A.M.E. Church and Coppin Community Center. They have been serving the south side of Chicago for the last 95 years. The pantry has been operation since October 2011. Refreshments will be served to volunteers. We need help the most from 8:30 am to 1:30 pm on truck delivery. 1st truck arrives between 8:30-9:00. 2nd truck arrives between 12:00noon and 12:30. These are not hard and fast time slots. If you cannot stay for the full duration, you can still be very helpful for 1 or 2 hours. Average weight for the bags and boxes are around 20 to 40 pounds. We work in teams so you do not need to lift anything heavier than you feel comfortable doing. You can take breaks whenever you need one.",
 		"url": "https://www.meetup.com/Chicago-Fun-Volunteers/events/lbszclyxpbzb/",
 		"start": "2018-11-19T08:30:00",
 		"cost": "free",
@@ -108,5 +108,105 @@
 		"location": "Theater Wit",
 		"tag": "Art",
 		"image": "images/events-11/110_in_the_shade-6.jpg"
+	},
+	{
+		"name": "Concert: The Garden, LE1F",
+		"description": "The Garden is an American duo from Orange County, California, formed in 2011 by twin brothers Wyatt and Fletcher Shears. The duo released their debut album The Life and Times of a Paperclip in 2013, with several smaller releases following.",
+		"url": "https://chicago.ohmyrockness.com/shows/331631-the-garden-le1f-cobra-lounge",
+		"start": "2018-11-23T18:30:00",
+		"cost": "$17.50",
+		"location": "Cobra Lounge ",
+		"tag": "Music",
+		"image": "images/LE1F.png"
+	},
+	{
+		"name": "The Big Lebowski Screening",
+		"description": "After Jeff The Dude Lebowski has his rug desecrated (it really tied the room together), he discovers that he/'s been mistaken for a millionaire also named Jeff Lebowski, who then recruits him to deliver the ransom for his kidnapped trophy wife. Both a eulogy to idleness and a poke at mental insipidity, The Big Lebowski proceeds to unfurl an unforgettable array of personalities and misadventures, chock full of iconic scenes and memorable lines.",
+		"url": "http://docfilms.uchicago.edu/dev/calendar/specialevents.shtml",
+		"start": "2018-12-01T21:30:00",
+		"cost": "$5.00",
+		"location": "Ida Notes Theater",
+		"tag": "Film",
+		"image": "images/TheBigLebowski.png"
+	},
+	{
+		"name": "Every Manner of Humanity: Inside the Exhibition Break a Rule",
+		"description": "A bold innovator who enjoyed disrupting conventions, Chicago artist Ed Paschke (1939–2004) mentored students for over two and a half decades to think outside the box. Join Block Museum Fellow Beth Derderian, doctoral candidate in anthropology, for a discussion of Paschke/'s teaching and artistic practices during a tour of the exhibition Break A Rule: Ed Paschke’s Art and Teaching.",
+		"url": "https://www.facebook.com/events/220843261936354/",
+		"start": "2018-12-01T18:00:00",
+		"cost": "free",
+		"location": "The Block Museum",
+		"tag": "Art",
+		"image": "images/BreakARule.png"
+	},
+	{
+		"name": "Visiting Artist Talk: Mike Cloud",
+		"description": "Mike Cloud is a painter whose work examines the conditions of painting in its contemporary life among countless reproductions, symbols and descriptions. Cloud earned his MFA from Yale University School of Art and a BFA from the University of Illinois-Chicago. ",
+		"url": "http://www.mikecloudart.com/",
+		"start": "2019-1-17T17:00:00",
+		"cost": "free",
+		"location": "Northwestern University, Kresge Hall",
+		"tag": "Art",
+		"image": "images/MikeCloud.png"
+	},
+	{
+		"name": "Sleigh",
+		"description": "Hot chocolate, apple cider, yummy snacks, and favorite carols by the fire pit played on the carillon by Joey Brink and senior members of the Rockefeller Carillon Studio. Dress for the outdoors! Free.",
+		"url": "https://rockefeller.uchicago.edu/",
+		"start": "2018-12-6T17:00:00",
+		"cost": "free",
+		"location": "Rockefeller Memorial Chapel",
+		"tag": "Music",
+		"image": "images/SleighBells.png"
+	},
+	{
+		"name": "Pub Trivia Night",
+		"description": "Trivia Night - Every Tuesday night at 8:30PM",
+		"url": "http://www.harryshydepark.com/events/",
+		"start": "2018-12-4T20:30:00",
+		"cost": "free",
+		"location": "Harry’s Pub",
+		"tag": "Trivia",
+		"image": "images/HarrysPub.png"
+	},
+	{
+		"name": "Bite Size Broadway",
+		"description": "Ruth Lloyd Webber (no relation) has been struggling for thirty years to throw her hat in the actor’s ring. Without a single acting credit to her infamous (no relation) name, Webber wrote eight mini musicals in the hopes of finally making her acting debut. None of them longer than 15 minutes, none of them shorter than 15 seconds. Six talented actors are bringing these comedic, inventive, never-before-seen productions to life in one spectacular hour of singing, dancing and jazz hands. ",
+		"url": "https://chicagoplays.com/show/annoyance-theatre/bite-size-broadway.html",
+		"start": "2018-12-13T20:00:00",
+		"cost": "free",
+		"location": "Annoyance Theatre",
+		"tag": "Theater",
+		"image": "images/o.jpg"
+	},
+	{
+		"name": "Arcadia",
+		"description": "Hailed as “the perfect marriage of ideas and high comedy” (The Times), the plot of ARCADIA swings between the early 19th century and the present day to explore the relationship between order and chaos. Delightful, richly drawn characters from both time periods enter and exit the same room, and current trappings end up mixing with accouterments of the past. Mathematical theory, natural history, and Lord Byron all contribute to humanity’s eternally amusing dance of love. Sparkling dialogue and clever plot twists remind us of our desire to find order in life’s never-ending parade of seemingly random events",
+		"url": "https://chicagoplays.com/show/promethean-theatre-ensemble/arcadia.html",
+		"start": "2018-12-12T17:00:00",
+		"cost": "free",
+		"location": "Greenhouse Theater Center",
+		"tag": "Theater",
+		"image": "images/Arcadia.jpg"
+	},
+	{
+		"name": "Concert: Empress Of",
+		"description": "Empress Of is the solo musical project of Los Angeles-based, Latin American singer-songwriter, Lorely Rodriguez. She gained attention in 2012 for anonymously releasing a series of 1 minute-long demos prefaced only by a solid color entitled /'Colorminutes/'.",
+		"url": "http://www.empressof.com/",
+		"start": "2018-11-30T19:30:00",
+		"cost": "free",
+		"location": "House of Vans",
+		"tag": "Music",
+		"image": "images/EmpressOf.png"
+	},
+	{
+		"name": "Concert: Jamila Woods",
+		"description": "Jamila Woods is a Chicago-based American soul singer, songwriter and poet. Woods is a graduate of St. Ignatius College Prep and Brown University. She is widely known for her collaborative works with Chance the Rapper on the hit song /'Sunday Candy/' from the album Surf as well as /'Blessings/' from Coloring Book.",
+		"url": "http://www.jamila-woods.com/",
+		"start": "2018-11-30T19:00:00",
+		"cost": "$15.00",
+		"location": "Harold Washington Cultural Center",
+		"tag": "Music",
+		"image": "images/JamilaWoods.png"
 	}
 ]
