@@ -6,7 +6,7 @@ import Chip from '@material-ui/core/Chip';
 import Grid from '@material-ui/core/Grid'
 
 // include mock data as part of js bundle for now.
-const events = require('./mock-data/events.json');
+
 
 
 const styles = theme => ({
@@ -21,9 +21,14 @@ class Suggested extends Component {
   constructor(props) {
       super(props)
 
+      console.log('event props', props)
       this.state = {
-        events: events
+        events: props.events
       };
+  }
+
+  componentWillReceiveProps(props) {
+    this.setState({events: props.events})
   }
 
   componentDidMount() {

@@ -4,8 +4,8 @@ import { withStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
-import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
+import Button from '@material-ui/core/Button';
 import GearIcon from '@material-ui/icons/Settings';
 import SearchIcon from '@material-ui/icons/Search';
 import { fade } from '@material-ui/core/styles/colorManipulator';
@@ -72,35 +72,62 @@ const styles = theme => ({
   },
 });
 
-function Navbar(props) {
-  const { classes } = props;
-  return (
-    <div className={classes.root}>
-      <AppBar position="static">
-        <Toolbar>
-          <IconButton className={classes.menuButton} color="inherit" aria-label="Open drawer">
-            <MenuIcon />
-          </IconButton>
-          <Typography className={classes.title} variant="h6" color="inherit" noWrap>
-            Material-UI
-          </Typography>
-          <div className={classes.grow} />
-          <div className={classes.search}>
-            <div className={classes.searchIcon}>
-              <SearchIcon />
+class Navbar extends React.Component {
+
+  constructor(props) {
+    super(props);
+
+    console.log('props', props)
+  }
+
+  state = {
+    name: 'Cat in the Hat',
+    age: '',
+    multiline: 'Controlled',
+    currency: 'EUR',
+  };
+
+  handleChange = event => {
+
+    let query = event.target.value
+    this.props.onSearch(query)
+  };
+
+  render() {
+    const { classes } = this.props;
+    const onSearch = this.props;
+
+    return (
+      <div className={classes.root}>
+        <AppBar position="static">
+          <Toolbar>
+            <IconButton className={classes.menuButton} color="inherit" aria-label="Open drawer">
+              <MenuIcon />
+            </IconButton>
+            <Typography className={classes.title} variant="h6" color="inherit" noWrap>
+              Material-UI
+            </Typography>
+            <div className={classes.grow} />
+
+            <div className={classes.search}>
+              <div className={classes.searchIcon}>
+                <SearchIcon />
+              </div>
+              <InputBase
+                onChange={this.handleChange}
+                placeholder="Search…"
+                classes={{
+                  root: classes.inputRoot,
+                  input: classes.inputInput,
+                }}
+              />
             </div>
-            <InputBase
-              placeholder="Search…"
-              classes={{
-                root: classes.inputRoot,
-                input: classes.inputInput,
-              }}
-            />
-          </div>
-        </Toolbar>
-      </AppBar>
-    </div>
-  );
+          </Toolbar>
+        </AppBar>
+      </div>
+    );
+  }
+
 }
 
 

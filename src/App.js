@@ -4,7 +4,6 @@ import { HashRouter as Router, Route} from 'react-router-dom';
 
 import './App.css';
 
-import Navbar from './Navbar'
 import SimpleTabs from './Tabs';
 
 
@@ -34,13 +33,19 @@ const RouteWithProps = ({ component: Component, props, ...extraProps }) => (
 
 
 class App extends Component {
+
+  constructor(props) {
+    super(props);
+
+    this.state = {query: null}
+  }
+
   render() {
     return (
       <Router>
         <MuiThemeProvider theme={theme}>
-          <Navbar />
 
-          <RouteWithProps exact path='/' component={SimpleTabs}/>
+          <RouteWithProps exact path='/' component={SimpleTabs} />
           <RouteWithProps path='/profile' component={SimpleTabs}/>
           <RouteWithProps path='/event/:id' component={SimpleTabs}/>
           {/*<RouteWithProps exact path='/about' component={About}/>*/}
