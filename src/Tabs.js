@@ -7,7 +7,6 @@ import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
 import Navbar from './Navbar'
 
-
 import Suggested from './Suggested';
 import Past from './Past';
 import Saved from './Saved';
@@ -98,14 +97,16 @@ class SimpleTabs extends React.Component {
         </AppBar>
         {value === 0 &&
           <TabContainer>
-            <Suggested events={events} onSave={this.onSaveEvent} onUnsave={this.onUnsaveEvent}/>
+            <div className="tab-container">
+              <Suggested events={events} onSave={this.onSaveEvent} onUnsave={this.onUnsaveEvent}/>
+            </div>
           </TabContainer>}
         {value === 1 &&
-          <TabContainer>
+          <TabContainer className="tab-container">
             <Past events={pastEvents} />
           </TabContainer>}
         {value === 2 &&
-          <TabContainer>
+          <TabContainer className="tab-container">
             <Saved events={savedEvents} />
           </TabContainer>
         }

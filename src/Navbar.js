@@ -11,6 +11,8 @@ import SearchIcon from '@material-ui/icons/Search';
 import CloseIcon from '@material-ui/icons/Close';
 import { fade } from '@material-ui/core/styles/colorManipulator';
 import InputBase from '@material-ui/core/InputBase';
+import LinearProgress from '@material-ui/core/LinearProgress';
+
 
 import Hidden from '@material-ui/core/Hidden';
 
@@ -71,6 +73,9 @@ const styles = theme => ({
       },
     },
   },
+  progress: {
+    margin: theme.spacing.unit * 2,
+  },
 });
 
 class Navbar extends React.Component {
@@ -85,7 +90,12 @@ class Navbar extends React.Component {
 
   handleChange = event => {
     let query = event.target.value
-    this.props.onSearch(query)
+
+    this.setState({isLoading: true});
+    setTimeout(() => {
+      this.props.onSearch(query)
+      this.setState({isLoading: false});
+    }, Math.random() * (500 - 250) + 250)
   };
 
 
@@ -98,16 +108,16 @@ class Navbar extends React.Component {
 
   render() {
     const { classes } = this.props;
-    const { showSearch } = this.state;
+    const { showSearch, isLoading } = this.state;
 
     return (
       <div className={classes.root}>
-        <AppBar position="static">
+        <AppBar position="static" style={{paddingTop: isLoading ? '' :'5px', marginTop: '-5px'}}>
+        {isLoading && <LinearProgress color="secondary" style={{top: '5px'}} />}
           <Toolbar>
             <IconButton className={classes.menuButton} color="inherit" aria-label="Settings Menu">
               <GearIcon />
             </IconButton>
-
 
             {!showSearch &&
               <Typography variant="h6" color="inherit" className={classes.grow}>
@@ -122,7 +132,7 @@ class Navbar extends React.Component {
                 <div className={classes.searchIcon}>
                   <SearchIcon />
                 </div>
-                <InputBase
+                 <InputBase
                   onChange={this.handleChange}
                   placeholder="Search…"
                   classes={{
@@ -131,6 +141,7 @@ class Navbar extends React.Component {
                   }}
                 />
               </div>
+
             </Hidden>
 
             {/* mobile */}
@@ -172,36 +183,6 @@ class Navbar extends React.Component {
 
 }
 
-
-
-
-
-
-
-/*
-  const { classes } = props;
-  return (
-
-
-    <div className={classes.root} >
-
-      <AppBar position="static">
-        <Toolbar>
-          <IconButton className={classes.menuButton} color="inherit" aria-label="Menu">
-            <GearIcon />
-          </IconButton>
-          <Typography variant="h6" color="inherit" className={classes.grow}>
-            <div className="logo">Chindig</div>
-          </Typography>
-          <Button className={classes.menuButton} color="inherit" aria-label="Search">
-            <SearchIcon />
-          </Button>
-        </Toolbar>
-      </AppBar>
-    </div>
-  );
-}
-*/
 
 Navbar.propTypes = {
   classes: PropTypes.object.isRequired,
