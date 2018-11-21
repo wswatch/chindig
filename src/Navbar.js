@@ -10,7 +10,6 @@ import GearIcon from '@material-ui/icons/Settings';
 import SearchIcon from '@material-ui/icons/Search';
 import CloseIcon from '@material-ui/icons/Close';
 import { fade } from '@material-ui/core/styles/colorManipulator';
-import MenuIcon from '@material-ui/icons/Menu';
 import InputBase from '@material-ui/core/InputBase';
 
 import Hidden from '@material-ui/core/Hidden';
@@ -111,9 +110,9 @@ class Navbar extends React.Component {
 
 
             {!showSearch &&
-                <Typography variant="h6" color="inherit" className={classes.grow}>
-                  <div className="logo">Chindig</div>
-                </Typography>}
+              <Typography variant="h6" color="inherit" className={classes.grow}>
+                <div className="logo">Chindig</div>
+              </Typography>}
 
 
             {/* desktop */}

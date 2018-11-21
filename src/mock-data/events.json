@@ -37,7 +37,8 @@
 		"cost": "free",
 		"location": "Navy Pier",
 		"tag": "Game",
-		"image": "images/events-4/highres_475695184.jpg"
+		"image": "images/events-4/highres_475695184.jpg",
+		"past": true
 	},
 	{
 		"name": "Green Gratitude 2018 Raw Vegan Dinner - ALL WELCOME!!",
@@ -67,7 +68,8 @@
 		"cost": "$12.00",
 		"location": "Sweet Pepper",
 		"tag": "Food, Vegan",
-		"image": "images/events-7/highres_475921864.jpeg"
+		"image": "images/events-7/highres_475921864.jpeg",
+		"past": true
 	},
 	{
 		"name": "Sunday Night Sitting Meditation w/ North Suburban Meditation Community",

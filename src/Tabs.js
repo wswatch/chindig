@@ -9,6 +9,8 @@ import Navbar from './Navbar'
 
 
 import Suggested from './Suggested';
+import Past from './Past';
+import Saved from './Saved';
 
 const events = require('./mock-data/events.json');
 
@@ -38,10 +40,12 @@ class SimpleTabs extends React.Component {
 
     this.state = {
       value: 0,
-      events: events
+      events: events.filter(e => !e.past),
+      pastEvents: events.filter(e => e.past),
+      savedEvents: []
     };
-
   }
+
 
   onSearch = (query) => {
     query = query.toLowerCase();
@@ -56,16 +60,30 @@ class SimpleTabs extends React.Component {
         tag.indexOf(query) !== -1;
     });
 
-    this.setState({events: filteredEvents});
+    this.setState({events: filteredEvents, query});
   }
+
 
   onTabChange = (event, value) => {
     this.setState({ value });
   };
 
+
+  onSaveEvent = (eventObj) => {
+    eventObj.saved = true;
+    this.forceUpdate()
+  }
+
+  onUnsaveEvent = (eventObj) => {
+    eventObj.saved = false;
+    this.forceUpdate()
+  }
+
   render() {
     const { classes } = this.props;
-    const { value, events } = this.state;
+    const { value, events, pastEvents } = this.state;
+
+    let savedEvents = events.filter(e => e.saved);
 
     return (
       <div className={classes.root}>
@@ -75,17 +93,21 @@ class SimpleTabs extends React.Component {
           <Tabs value={value} onChange={this.onTabChange} centered fullWidth>
             <Tab label="Suggested" />
             <Tab label="Past" />
-            <Tab label="Upcoming (0)" />
+            <Tab label={`Upcoming (${savedEvents.length})`} />
           </Tabs>
         </AppBar>
         {value === 0 &&
           <TabContainer>
-            <Suggested events={events}/>
+            <Suggested events={events} onSave={this.onSaveEvent} onUnsave={this.onUnsaveEvent}/>
           </TabContainer>}
         {value === 1 &&
-          <TabContainer>Past</TabContainer>}
+          <TabContainer>
+            <Past events={pastEvents} />
+          </TabContainer>}
         {value === 2 &&
-          <TabContainer>Saved</TabContainer>
+          <TabContainer>
+            <Saved events={savedEvents} />
+          </TabContainer>
         }
       </div>
     );
