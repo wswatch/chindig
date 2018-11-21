@@ -18,7 +18,6 @@ class Suggested extends Component {
   constructor(props) {
       super(props)
 
-      console.log('event props', props)
       this.state = {
         events: props.events
       };

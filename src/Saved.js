@@ -67,6 +67,11 @@ class Suggested extends Component {
       <div>
         <Grid container spacing={24}>
           { events }
+
+          {!events.length &&
+            <div className="text-center">
+              <br/>No upcoming events saved.  Check out the "Suggested" tab for some indie events we think you'll dig.
+            </div>}
         </Grid>
       </div>
     );
