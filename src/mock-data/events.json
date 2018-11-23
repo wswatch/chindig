@@ -211,4 +211,104 @@
 		"tag": "Music",
 		"image": "images/JamilaWoods.png"
 	}
+	{
+		"name": "Adults Night Out 2018",
+		"description": "Guests will enjoy unique animal chats, educational entertainment, and cash bars throughout the zoo at this after-hours event",
+		"url": "https://www.lpzoo.org/adults-night-out",
+		"start": "2018-11-29T18:30:00",
+		"cost": "$15.00",
+		"location": "Lincoln Park Zoo",
+		"tag": "Animal",
+		"image": "images/events/adult_zoo.jpg"
+	},
+	{
+		"name": "Happy's: A Holiday Pop-Up Bar",
+		"description": "This is a great pitstop after checking out Christkindlmarket or the Millennium Park ice-skating rink",
+		"url": "http://chicagoathleticevents.com/events/categories/",
+		"start": "2018-12-8T17:00:00",
+		"cost": "free",
+		"location": "Chicago Athletic Assocation",
+		"tag": "Bar",
+		"image": "images/events/happy.jpg"
+	},
+	{
+		"name": "Travis Scott + Sheck Wes + Trippie Redd + Gunna",
+		"description": "After celebrating the release of his latest album, ASTROWORLD, at Lollapalooza this summer, Travis Scott returns to Chicago on his WISH YOU WERE HERE tour.",
+		"url": "http://www.unitedcenter.com/events/2018/12/06/travis-scott-astroworld-wish-you-were-here/",
+		"start": "2018-12-6T19:30:00",
+		"cost": "$40.00-$450",
+		"location": "1901 W Madison St ",
+		"tag": "Music",
+		"image": "images/events/happy.jpg"
+	},
+	{
+		"name": "NATIONAL THEATRE LIVE PRESENTS ANTONY & CLEOPATRA",
+		"description": "Broadcast live from the National Theatre, Ralph Fiennes and Sophie Okonedo play Shakespeare’s famous fated couple in his great tragedy of politics, passion and power",
+		"url": "http://ntlive.nationaltheatre.org.uk/productions/69873-antony-cleopatra",
+		"start": "2018-12-6T19:00:00",
+		"cost": "$18.00-$20.00",
+		"location": "AMC River East 21",
+		"tag": "Art",
+		"image": "images/events/nation.jpg"
+	},
+	{
+		"name": "CHICAGO BULLS V OKLAHOMA CITY THUNDER",
+		"description": "Watch the legendary Chicago Bulls hit the court to play the Oklahoma City Thunder in this regular season game ",
+		"url": "https://www.nba.com/bulls/gameday/20181121/phxchi",
+		"start": "2018-12-7T19:00:00",
+		"cost": "$100",
+		"location": "Chicago Bulls",
+		"tag": "Sport",
+		"image": "images/events/bull.jpg"
+	},
+	{
+		"name": "BROOKFIELD ZOO’S BREAKFAST WITH SANTA",
+		"description": "You can visit your favorite animals",
+		"url": "https://www.czs.org/Brookfield-ZOO/Events/Upcoming-Events",
+		"start": "2018-12-16T10:00:00",
+		"cost": "$15.00",
+		"location": "Brookfield Zoo",
+		"tag": "Special",
+		"image": "images/events/santa.jpg"
+	},
+	{
+		"name": "Pride Film Festival",
+		"description": "Monthly film festival of short LGBTQ - themed films from around the world.",
+		"url": "http://www.pridefilmsandplays.com/",
+		"start": "2018-12-11T19:30:00",
+		"cost": "$10.00",
+		"location": "The Broadway, Pride Arts Center",
+		"tag": "Festivals",
+		"image": "images/events/pride.jpg"
+	},
+	{
+		"name": "ART ON THEMART",
+		"description": "In the spirit of Chicago’s great legacy of public art and culture, Art on theMART is the largest digital art projection in the world",
+		"url": "https://www.artonthemart.com/",
+		"start": "2018-12-12T19:00:00",
+		"cost": "free",
+		"location": "Merchandise Mart",
+		"tag": "Museum",
+		"image": "images/events/museum.jpg"
+	},
+	{
+		"name": "CHICAGO'S ORIGINAL ARCHITECTURE TOUR",
+		"description": "This comprehensive tour will navigate through the heart of the city on all three branches of the Chicago River",
+		"url": "https://wendellaboats.com/Boat-Tours/Chicago-River-Architecture-Tour",
+		"start": "2018-12-12T9:00:00",
+		"cost": "$35.00",
+		"location": "Wendella Tours & Cruises",
+		"tag": "Tour",
+		"image": "images/events/tour.jpg"
+	},
+	{
+		"name": "Dream Freaks Fall From Space",
+		"description": "You’ll fall for this other-worldly adventure that’s unlike any other show on the planet!",
+		"url": "https://www.secondcity.com/shows/chicago/dream-freaks-fall-space/",
+		"start": "2018-12-12T20:00:00",
+		"cost": "$38.00",
+		"location": "The Second City",
+		"tag": "Music",
+		"image": "images/events/dream.jpg"
+	}
 ]
